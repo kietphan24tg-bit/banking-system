@@ -1,0 +1,23 @@
+# IDE metadata
+.idea/
+*.iml
+.vscode/
+
+# Build outputs
+**/target/
+**/build/
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials.json
+secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
